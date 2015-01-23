@@ -1,0 +1,35 @@
+# a farbox header snip
+snippet til
+	Title: ${1}
+	Status: ${2:Public}
+	Tags: ${3}
+	Date: time${4}
+
+	[TOC]
+# a code block snip
+# a bug occurs starting with ``
+snippet code
+	```${1:verilog}
+	${2}
+	```
+
+# a Tex numbered equation block snip
+snippet equ
+	$$
+	\begin{equation}
+		${1:your equation}
+	\end{equation}
+	$$
+
+# \begin{}...\end{}
+snippet begin
+	$$
+	\begin{${1:env}}
+		${2}
+	\end{$1}
+	$$
+
+# linker snip
+snippet lin
+	[${1}](${2:http://}${3})
+
